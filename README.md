@@ -1,1 +1,15 @@
-# Learning-C-language
+#include <stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter any number:");
+    scanf("%d%d",&a,&b);
+    int big=(a<b)?a:b;
+    int small=(a>b)?a:b;
+    int step=big;
+    while(big%small!=0)
+    {
+        big=big+step;
+    }
+    printf("LCM is %d",big);
+}
