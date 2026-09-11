@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter any number:");
+    scanf("%d%d",&a,&b);
+    while(b!=0)
+    {
+        int r=a%b;
+        a=b;
+        b=r;
+    }
+    printf("HCF is %d",a);
+    }
