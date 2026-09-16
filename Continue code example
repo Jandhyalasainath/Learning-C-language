@@ -8,7 +8,7 @@ void main()
         if(i==3)
         {
             continue;
-            
         }
+  printf("%d",i);
     }
 }
